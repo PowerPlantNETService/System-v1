@@ -1,0 +1,4 @@
+# Project exclude paths
+/Deamon/target/
+/Library/target/
+/Master/target/
