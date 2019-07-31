@@ -2,6 +2,7 @@ package com.powerplantnet.master;
 
 import com.powerplantnet.library.command.CommandService;
 import com.powerplantnet.library.logger.LoggerService;
+import com.powerplantnet.library.module.ModuleService;
 import com.powerplantnet.library.network.PowerServer;
 import lombok.Getter;
 
@@ -13,6 +14,7 @@ public class PowerMaster {
     private CommandService commandService;
     private LoggerService loggerService;
     private PowerServer powerServer;
+    private ModuleService moduleService;
 
     public PowerMaster(){
 
