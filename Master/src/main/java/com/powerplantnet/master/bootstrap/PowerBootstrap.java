@@ -20,7 +20,7 @@ public class PowerBootstrap {
                 e.printStackTrace();
             }
             CloudLib.clearScreen();
-            System.out.println("Shutdown PowerPlantNET-Master");
+            System.out.println("Shutdown2 PowerPlantNET-Master");
         } ) );
 
         final var master = new PowerMaster();
